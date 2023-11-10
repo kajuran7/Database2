@@ -152,7 +152,10 @@ customers>
 ```
 
 **8. Remove the customer from Tokyo.**
-```
+```customers> db.customerdetails.deleteOne({ city: "Tokyo" });
+{ acknowledged: true, deletedCount: 1 }
+customers> 
+
 ```
 
 **9.  Find customers not from Los Angeles.**
