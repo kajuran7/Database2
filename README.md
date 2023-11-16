@@ -106,7 +106,7 @@ customers> db.customerdetails.find().sort({ "age": 1 }).pretty()
 
 customers> db.customerdetails.countDocuments({ "gender": "Female" })
 4
-``
+```
 **6.Insert one document into the customerdetails collection**
 ```
 customers> db.customerdetails.insertOne({ "name": "Sajee", "age": "24", "gender": "Male", "city": "Toronto" })
