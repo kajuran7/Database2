@@ -99,9 +99,11 @@ customers> db.customerdetails.find().sort({ "age": 1 }).pretty()
   }
 ]
 
+
 ```
 **5. Count the number of females.**
 ```
+
 customers> db.customerdetails.countDocuments({ "gender": "Female" })
 4
 ``
